@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">한옥 매니아</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_open_homepage">Homepage</string>
+    <string name="action_search">Search</string>
+    <string name="title1">ITemFragment</string>
+    <string name="dummy">ExpandableList</string>
+
+
+    <!-- TODO: 네비게이션 드로워 메뉴 순서대로 작성, ViewPager 순서와 맞춤 -->
+    <string name="nav_menu_title_8">북촌 한옥 마을</string>
+    <string name="nav_menu_title_7">한옥 현황</string>
+    <string name="nav_menu_title_6">한옥 자료 갱신</string>
+
+    <string-array name="nav_menu_array">
+        <item>@string/nav_menu_title_8</item>
+        <item>@string/nav_menu_title_7</item>
+        <item>@string/nav_menu_title_6</item>
+    </string-array>
+
+    <string name="title_activity_manage_db">ManageDbActivity</string>
+
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="blue">#2554C7</drawable>
+    <drawable name="green">#347C2C</drawable>
+    <drawable name="orange">#ff9900</drawable>
+    <drawable name="pink">#FF00FF</drawable>
+    <drawable name="violet">#a020f0</drawable>
+    <drawable name="gray">#778899</drawable>
+    <drawable name="red">#C11B17</drawable>
+
+</resources>

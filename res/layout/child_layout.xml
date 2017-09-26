@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/hanok_picture_left_iv"
+            android:src="@drawable/bukchon_1_default"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/hanok_picture_center_iv"
+            android:src="@drawable/bukchon_2_default"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/hanok_picture_right_iv"
+            android:src="@drawable/bukchon_3_default"
+            android:scaleType="centerCrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/item_name_tv"
+            android:singleLine="true"
+            android:text="명칭 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_addr_tv"
+            android:text="주소 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_type_tv"
+            android:text="종류 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_owner_tv"
+            android:text="소유자 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_phone_tv"
+            android:text="전화 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_homepage_tv"
+            android:text="홈페이지 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/item_cultural_tv"
+            android:text="문화재 지정 내용 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/item_content_tv"
+            android:text="건물 설명 : "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

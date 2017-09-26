@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!-- TODO: 좌측 메뉴 수정 -->
+
+    <group android:id="@+id/section1"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_bukchon"
+            android:title="북촌 한옥 마을" />
+        <item
+            android:id="@+id/nav_hanokstatus"
+            android:title="@string/nav_menu_title_7" />
+    </group>
+    <group android:id="@+id/section2"
+        android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_hanokdbupdate"
+            android:title="@string/nav_menu_title_6" />
+    </group>
+
+</menu>
